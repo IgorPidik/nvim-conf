@@ -17,6 +17,12 @@ require("neo-tree").setup {
     },
   },
 }
+
+require("notify").setup {
+  background_colour = "#1a1b26",
+  merge_duplicates = true,
+}
+
 -- lvim.builtin.which_key.mappings["f"] = {
 --   name = "+Find",
 --   b = { "<cmd>Telescope buffers<cr>", "Find buffers" },
@@ -34,4 +40,4 @@ require("neo-tree").setup {
 --   R = { "<cmd>Telescope registers<cr>", "Registers" },
 --   k = { "<cmd>Telescope keymaps<cr>", "Keymaps" },
 --   C = { "<cmd>Telescope commands<cr>", "Commands" },
--- }
+-- })
